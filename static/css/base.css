@@ -28,6 +28,13 @@ body {
     background-color: #EAE7DC;
 }
 
+.form-control:active,
+.form-control:focus{
+    background-color: #fffae9;
+    outline-color: transparent;
+    outline-style: none;
+}
+
 /* from Bulma, font awesome size stays consistent and center unless I change it */
 .icon {
     align-items: center;
