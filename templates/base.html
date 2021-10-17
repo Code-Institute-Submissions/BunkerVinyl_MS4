@@ -47,7 +47,7 @@
     <div id="topnav" class="row bg-beige pt-lg-2 d-none d-lg-flex">
       <div class="col012 col-lg-4 my-auto py-1 py-lg-0 text-center text-lg-left">
         <a href="{% url 'home' %}" class="nav-link main-logo-link">
-          <h2 class="logo-font text-white shadows my-0"><span class="text-red">Bunker</span>Vinyl<i class="fas fa-record-vinyl"></i></h2>
+          <h2 class="logo-font my-0"><span class="text-red">Bunker</span><span class="shadows">Vinyl</span></h2>
         </a>
       </div>
       <div class="col-12 col-lg-4 my-auto py-1 py-lg-0">
@@ -56,7 +56,7 @@
             <input class="form-control border border-black rounded-4" type="text" name="q"
               placeholder="Search our site">
             <div class="input-group-append">
-              <button class="form-control btn btn-beige border border-black rounded-4" type="submit">
+              <button class="form-control btn btn-black border border-black rounded-4" type="submit">
                 <span class="icon">
                   <i class="fas fa-search"></i>
                 </span>
@@ -69,11 +69,11 @@
         <ul class="list-inline list-unstyled text-center text-lg-right my-0">
           <li class="list-inline-item dropdown">
             <!----------------------------------  Parent Menu  ------------------------------------->
-            <a class="text-white nav-link" href="#" id="user-options" data-toggle="dropdown" aria-haspopup="true"
+            <a class="nav-link" href="#" id="user-options" data-toggle="dropdown" aria-haspopup="true"
               aria-expanded="false">
               <div class="text-center">
-                <div><i class="fas fa-user fa-lg shadows"></i></div>
-                <p class="my-0 shadows">My Account</p>
+                <div><i class="fas fa-user fa-lg"></i></div>
+                <p class="my-0">My Account</p>
               </div>
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="user-options">
@@ -95,10 +95,10 @@
           <!------------------Shopping Cart Link----------------------------->
           <li class="list-inline-item">
             <!------------------Changes colour when something is in the bag---------------------->
-            <a class="{% if grand_total %}text-info font-weight-bold{% else %}text-white{% endif %} nav-link" href="">
+            <a class="{% if grand_total %}text-info font-weight-bold{% else %}{% endif %} nav-link" href="">
               <div class="text-center">
-                <div><i class="fas fa-shopping-bag fa-lg shadows"></i></div>
-                <p class="my-0 shadows">
+                <div><i class="fas fa-shopping-bag fa-lg"></i></div>
+                <p class="my-0">
                   <!------------------Displays Total to two decimal Places----------------------------->
                   {% if grand_total %}
                   ${{ grand_total|floatformat:2 }}
@@ -112,6 +112,20 @@
         </ul>
       </div>
     </div>
+    <div class="row bg-beige">
+      <nav class="navbar navbar-expand-lg navbar-light w-100">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        {% include 'includes/mobile-top-header.html' %}
+        {% include 'includes/main-nav.html' %}
+      </nav>
+    </div>
+    <div id="delivery-banner" class="row text-center">
+      <div class="col bg-black text-white">
+          <h4 class="logo-font my-1">Free delivery on orders over €{{ free_delivery_threshold }}!</h4>                
+      </div>            
+  </div>
   </header>
 
   {% if messages %}
