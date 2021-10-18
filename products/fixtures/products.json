@@ -154,4 +154,95 @@
         "image_url": "https://en.wikipedia.org/wiki/Everybody_Loves_the_Sunshine#/media/File:Everybody_Loves_the_Sunshine.jpg",
         "image": "royayers.jpeg"
     }
+}, {
+    "pk": 13,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5002707583",
+        "name": "KRK Rokit RP8",
+        "description": "Redefining the industry level for studio monitors. The KRK RP8 G4 Studio Monitors are engineered to deliver the best listening experience possible. Boasting the same quality that made the previous generation so integral to your studio, the RP8 G4's still manage to work in new features. Matching Kevlar drivers ensure durability and unwavering quality, while a built-in LCD displays EQ information for incredible visualisation.",
+        "price": 589.99,
+        "category": 6,
+        "rating": 4.4,
+        "image_url": "https://d1aeri3ty3izns.cloudfront.net/media/53/532434/600/preview.jpg",
+        "image": "rokit.jpeg"
+    }
+}, {
+    "pk": 14,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5002769087",
+        "name": "Behringer",
+        "description": "The Behringer Studio 50USB Studio Monitors (Pair) are USB/Analogue high-resolution 2-Way Studio Monitors with Bi-Amplification.",
+        "price": 119.99,
+        "category": 6,
+        "rating": 3.8,
+        "image_url": "https://images.musicstore.de/images/1280/behringer-studio-50usb-studio-monitors-pair-_1_REC0012585-000.jpg",
+        "image": "behringer.jpeg"
+    }
+}, {
+    "pk": 15,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5002827485",
+        "name": "Yamaha HS5 MP Studio Monitors",
+        "description": "The Yamaha HS5 combines a wide range of premium-grade components including larger-than-normal magnets for optimal audio fidelity. The advanced magnetic field design ensures extreme accuracy when it comes to sound reproduction, paramount for mixing and mastering purposes. Its 2-way bi-amplified design is comprised of a 5-inch cone woofer and a 1-inch dome tweeter. The two components are powered separately by dedicated amplifiers for maximum efficiency. The woofer is driven a 45W amplifier, with the tweeter driven by a 25W amplifier. This ensures optimal audio performance even at higher sound levels.",
+        "price": 359.99,
+        "category": 6,
+        "rating": 4.6,
+        "image_url": "https://www.dj-solutions.ie/wp-content/uploads/2020/07/preview-17.jpg",
+        "image": "yamaha.jpeg"
+    }
+}, {
+    "pk": 16,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5002700000",
+        "name": "Audio Technica LP120",
+        "description": "The Audio Technica LP120USB is a sturdy player that not only plays records but can copy vinyl straight to your hard-drive.",
+        "price": 259,
+        "category": 4,
+        "rating": 4.8,
+        "image_url": "https://images.static-thomann.de/pics/bdb/485921/14885570_800.jpg",
+        "image": "lp120.jpeg"
+    }
+}, {
+    "pk": 17,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5002767893",
+        "name": "Reloop AMS-RP-4000-MK2",
+        "description": "Reloop may not be a name you’re familiar with, but its AMS-RP-4000-MK2 is an excellent entry-level option for aspiring DJs.",
+        "price": 286.99,
+        "category": 4,
+        "rating": 4.2,
+        "image_url": "https://m.media-amazon.com/images/I/61H4vrgsftS._AC_SL1500_.jpg",
+        "image": "reloop.jpeg"
+    }
+}, {
+    "pk": 18,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5002825889",
+        "name": "Pioneer PLX1000 Direct Drive DJ Turntable",
+        "description": "The PLX-1000 is precision engineered for the booth. This high-torque direct drive professional turntable is equipped with a classic layout and a rubber-lined, S-shaped tone arm that improves isolation and prevents feedback. It is solidly built for excellent vibration damping and ultra-precise, high grade audio playback.",
+        "price": 604.99,
+        "category": 4,
+        "rating": 4.9,
+        "image_url": "https://m.media-amazon.com/images/I/71EOD7YNuuL._AC_SL1000_.jpg",
+        "image": "pioneer.jpg"
+    }
+}, {
+    "pk": 19,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5002825889",
+        "name": "Micro Fibre Brush",
+        "description": "he Monacor DC-100 Carbon Fibre LP Brush is the ultimate vinyl-care accessory for any record collector or owner. The DC-100 features more than one-million conducting fibres. These fibres are designed to discharge static charges and remove dust at the same time, maintaining the life of your precious record collection.",
+        "price": 14.99,
+        "category": 5,
+        "rating": 4.9,
+        "image_url": "https://d1aeri3ty3izns.cloudfront.net/media/29/297152/600/preview.jpg",
+        "image": "brush.jpeg"
+    }
 }]
