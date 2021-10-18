@@ -44,6 +44,7 @@ INSTALLED_APPS = [
     # basic users account activites, e.g registration/password resets
     'allauth.socialaccount',  # logging in with socialmedia accounts
     'home',
+    'products',
 ]
 
 MIDDLEWARE = [
