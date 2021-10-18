@@ -2,63 +2,42 @@
     "pk": 1,
     "model": "products.category",
     "fields": {
-        "name": "activewear",
-        "friendly_name": "Activewear"
+        "name": "hiphop",
+        "friendly_name": "Hip-Hop"
     }
 }, {
     "pk": 2,
     "model": "products.category",
     "fields": {
-        "name": "bed_bath",
-        "friendly_name": "Bed & Bath"
+        "name": "jazz",
+        "friendly_name": "Jazz"
     }
 }, {
     "pk": 3,
     "model": "products.category",
     "fields": {
-        "name": "clearance",
-        "friendly_name": "Clearance"
+        "name": "indie",
+        "friendly_name": "Indie Rock"
     }
 }, {
     "pk": 4,
     "model": "products.category",
     "fields": {
-        "name": "deals",
-        "friendly_name": "Deals"
+        "name": "turntable",
+        "friendly_name": "Record Players"
     }
 }, {
     "pk": 5,
     "model": "products.category",
     "fields": {
-        "name": "essentials",
-        "friendly_name": "Essentials"
+        "name": "cleaning",
+        "friendly_name": "Cleaning Products"
     }
 }, {
     "pk": 6,
     "model": "products.category",
     "fields": {
-        "name": "jeans",
-        "friendly_name": "Jeans"
-    }
-}, {
-    "pk": 7,
-    "model": "products.category",
-    "fields": {
-        "name": "kitchen_dining",
-        "friendly_name": "Kitchen & Dining"
-    }
-}, {
-    "pk": 8,
-    "model": "products.category",
-    "fields": {
-        "name": "new_arrivals",
-        "friendly_name": "New Arrivals"
-    }
-}, {
-    "pk": 9,
-    "model": "products.category",
-    "fields": {
-        "name": "shirts",
-        "friendly_name": "Shirts"
+        "name": "speakers",
+        "friendly_name": "Monitors"
     }
 }]
