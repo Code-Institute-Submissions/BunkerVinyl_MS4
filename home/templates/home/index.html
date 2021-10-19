@@ -2,11 +2,7 @@
 {% load static %}
 
 {% block page_header %}
-    <div class="container header-container">
-        <div class="row">
-            <div class="col"></div>
-        </div>
-    </div>
+   
 {% endblock %}
 
 {% block content %}
@@ -18,7 +14,7 @@
                 </h1>
                 <div>
                     <h4>
-                        <a href="" class="shop-now-button btn btn-lg border-black rounded-4 text-uppercase py-3">
+                        <a href="{% url 'products' %}" class="shop-now-button btn btn-lg border-black rounded-4 text-uppercase py-3">
                         Shop Now
                         </a>
                     </h4>
