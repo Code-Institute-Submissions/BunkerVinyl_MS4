@@ -17,7 +17,7 @@ a{
 footer {
     text-align: center;
     padding: 3px;
-    background-color: #c5a173;
+    background-color: #b39975;
     color: #edeae6;
   }
 
@@ -27,7 +27,7 @@ h2{
 /* -----------------------------------------------  Navbar stylings */
 
 .bg-beige {
-    background-color: #c5a173 !important;
+    background-color: #b39975 !important;
 }
 
 .bg-black {
@@ -40,6 +40,11 @@ h2{
     border: 1px solid #181c16 !important;
 }
 
+.card,
+.card-body,
+.card-footer{
+    background-color: #c5a173;
+}
 
 /* -----------------------------------------------  Searchbar stylings */
 
@@ -149,5 +154,15 @@ h2{
 
     .header-container {
         padding-top: 164px;
+    }
+}
+
+@media (max-width: 991px) {
+    .header-container {
+        padding-top: 116px;
+    }
+
+    body {
+        height: calc(100vh - 116px);
     }
 }
