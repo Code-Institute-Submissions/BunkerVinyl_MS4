@@ -34,10 +34,11 @@
                         </a>
                         {% endif %}
                         <!--------------------------------------------Product Name------------------------------------------>
-
+                        <a href="{% url 'product_detail' product.id %}">
                         <div class="card-body pb-0">
                             <p class="mb-0 text-white">{{ product.name }}</p>
                         </div>
+                        </a>
                         <!--------------------------------------------Price & Rating------------------------------------------>
 
                         <div class="card-footer pt-0 border-0 text-left">

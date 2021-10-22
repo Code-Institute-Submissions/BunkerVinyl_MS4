@@ -12,6 +12,13 @@ body {
 
 a{
     color: #edeae6;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+a:hover {
+    color: #edeae6;
+    text-decoration: underline;
 }
 
 footer {
@@ -144,14 +151,6 @@ h2{
 
 /* -------------------------------- scroll top navbar only on medium and up */
 @media (min-width: 992px) {
-    .fixed-top-desktop-only {
-        position: scroll;
-        top: 0;
-        right: 0;
-        left: 0;
-        z-index: 1030;
-    }
-
     .header-container {
         padding-top: 164px;
     }

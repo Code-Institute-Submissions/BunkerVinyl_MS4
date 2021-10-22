@@ -6,10 +6,9 @@
                 All Products
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="genre-link">
-                <a href="" class="dropdown-item">Music</a>
-                <a href="" class="dropdown-item ">Monitors</a>
-                <a href="" class="dropdown-item ">Turntables</a>
-                <a href="" class="dropdown-item ">Cleaning Products</a>
+                <a href="{% url 'products' %}?sort=price&direction=asc" class="dropdown-item">By Price</a>
+                <a href="{% url 'products' %}?sort=rating&direction=asc" class="dropdown-item ">By Rating</a>
+                <a href="{% url 'products' %}?sort=category&direction=asc" class="dropdown-item ">By Category</a>
                 <a href="{% url 'products' %}" class="dropdown-item">All Products</a>
             </div>
         </li>
@@ -19,9 +18,9 @@
                 Genres
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="labels-link">
-                <a href="" class="dropdown-item">Hip-Hop</a>
-                <a href="" class="dropdown-item">Jazz</a>
-                <a href="" class="dropdown-item">Indie Rock</a>
+                <a href="{% url 'products' %}?category=hiphop" class="dropdown-item">Hip-Hop</a>
+                <a href="{% url 'products' %}?category=jazz" class="dropdown-item">Jazz</a>
+                <a href="{% url 'products' %}?category=indie" class="dropdown-item">Indie Rock</a>
             </div>
         </li>
 
@@ -30,9 +29,9 @@
                 Equipment
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="labels-link">
-                <a href="" class="dropdown-item">Turntables</a>
-                <a href="" class="dropdown-item">Speakers</a>
-                <a href="" class="dropdown-item">Cleaning Equipment</a>
+                <a href="{% url 'products' %}?category=turntable" class="dropdown-item">Turntables</a>
+                <a href="{% url 'products' %}?category=speakers" class="dropdown-item">Monitors</a>
+                <a href="{% url 'products' %}?category=cleaning" class="dropdown-item">Cleaning Equipment</a>
 
             </div>
         </li>

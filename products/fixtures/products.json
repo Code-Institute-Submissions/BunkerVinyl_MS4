@@ -4,7 +4,7 @@
     "fields": {
         "sku": "pp5001340155",
         "name": "Kanye West - College Drop Out",
-        "description": "The College Dropout is the debut studio album by American rapper and producer Kanye West. It was released on February 10, 2004, by Roc-A-Fella Records and Def Jam Recordings.",
+        "description": "The College Dropout is the debut studio hip-hop album by American rapper and producer Kanye West. It was released on February 10, 2004, by Roc-A-Fella Records and Def Jam Recordings.",
         "price": 34.99,
         "category": 1,
         "rating": 4.8,
@@ -17,7 +17,7 @@
     "fields": {
         "sku": "pp5001600425",
         "name": "MF DOOM - MM..Food",
-        "description": "Mm..Food (stylized in all caps) is the fifth studio album by British-American rapper/producer MF Doom, released by Rhymesayers in November 2004.",
+        "description": "Mm..Food (stylized in all caps) is the fifth studio hip-hop album by British-American rapper/producer MF Doom, released by Rhymesayers in November 2004.",
         "price": 29.99,
         "category": 1,
         "rating": 5,
@@ -30,7 +30,7 @@
     "fields": {
         "sku": "pp5001730010",
         "name": "Mac Miller - Circles",
-        "description": "Circles is the sixth and final studio album by American rapper and singer Mac Miller. It was released posthumously on January 17, 2020, by REMember Music and Warner Records, and was being worked on by Miller before his death in September 2018. Production was completed by Jon Brion.",
+        "description": "Circles is the sixth and final studio album by American rapper, singer and hip-hop artist Mac Miller. It was released posthumously on January 17, 2020, by REMember Music and Warner Records, and was being worked on by Miller before his death in September 2018. Production was completed by Jon Brion.",
         "price": 39.99,
         "category": 1,
         "rating": 4.0,
@@ -43,7 +43,7 @@
     "fields": {
         "sku": "pp5001890157",
         "name": "Freddie Gibbs - Alfredo",
-        "description": "Alfredo is a collaborative studio album by American rapper Freddie Gibbs and American hip hop producer The Alchemist. It was released on May 29, 2020, through Gibbs' own record label ESGN Records, as well as ALC Records and Empire Distribution.",
+        "description": "Alfredo is a collaborative studio hip-hop album by American rapper Freddie Gibbs and American hip hop producer The Alchemist. It was released on May 29, 2020, through Gibbs' own record label ESGN Records, as well as ALC Records and Empire Distribution.",
         "price": 24.99,
         "category": 1,
         "rating": 4.5,
@@ -82,7 +82,7 @@
     "fields": {
         "sku": "pp5002440521",
         "name": "Lucky Daye - Painted",
-        "description": "Painted is the debut studio album by American singer Lucky Daye. It was released on May 24, 2019, by Keep Cool Records and RCA Records.",
+        "description": "Painted is the debut studio album by American indie singer Lucky Daye. It was released on May 24, 2019, by Keep Cool Records and RCA Records.",
         "price": 19.99,
         "category": 3,
         "rating": 4.4,
@@ -95,7 +95,7 @@
     "fields": {
         "sku": "pp5002601115",
         "name": "LCD Soundsystem - Sound of Silver",
-        "description": "Sound of Silver is the second studio album by American rock band LCD Soundsystem. The album was released jointly through DFA and Capitol Records in the United States and EMI elsewhere, first on March 12, 2007, in the United Kingdom.",
+        "description": "Sound of Silver is the second studio album by American indie rock band LCD Soundsystem. The album was released jointly through DFA and Capitol Records in the United States and EMI elsewhere, first on March 12, 2007, in the United Kingdom.",
         "price": 34.99,
         "category": 3,
         "rating": 4.9,
@@ -134,7 +134,7 @@
     "fields": {
         "sku": "pp5002761055",
         "name": "Gil Scott Heron - Pieces of a Man",
-        "description": "Pieces of a Man is the first studio album by American vocalist Gil Scott-Heron. It was recorded in April 1971 at RCA Studios in New York City and released later that year by Flying Dutchman Records.",
+        "description": "Pieces of a Man is the first studio album by American soul, funk and jazz vocalist Gil Scott-Heron. It was recorded in April 1971 at RCA Studios in New York City and released later that year by Flying Dutchman Records.",
         "price": 29.99,
         "category": 2,
         "rating": 5.0,
@@ -147,7 +147,7 @@
     "fields": {
         "sku": "pp5002820069",
         "name": "Roy Ayers - Everybody Loves the Sunshine",
-        "description": "Everybody Loves the Sunshine is a studio album by Roy Ayers released under the Roy Ayers Ubiquity umbrella. It was released through Polydor Records in 1976. It peaked at number 51 on the Billboard 200 chart.",
+        "description": "Everybody Loves the Sunshine is a studio album by soul artist Roy Ayers released under the Roy Ayers Ubiquity umbrella. It was released through Polydor Records in 1976. It peaked at number 51 on the Billboard 200 chart.",
         "price": 19.99,
         "category": 2,
         "rating": 4.6,
