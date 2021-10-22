@@ -21,6 +21,8 @@
                 <a href="{% url 'products' %}?category=hiphop" class="dropdown-item">Hip-Hop</a>
                 <a href="{% url 'products' %}?category=jazz" class="dropdown-item">Jazz</a>
                 <a href="{% url 'products' %}?category=indie" class="dropdown-item">Indie Rock</a>
+                <a href="{% url 'products' %}?category=hiphop,jazz,indie" class="dropdown-item">All Genres</a>
+
             </div>
         </li>
 
@@ -31,7 +33,9 @@
             <div class="dropdown-menu border-0" aria-labelledby="labels-link">
                 <a href="{% url 'products' %}?category=turntable" class="dropdown-item">Turntables</a>
                 <a href="{% url 'products' %}?category=speakers" class="dropdown-item">Monitors</a>
-                <a href="{% url 'products' %}?category=cleaning" class="dropdown-item">Cleaning Equipment</a>
+                <a href="{% url 'products' %}?category=cleaning" class="dropdown-item">Cleaning Products</a>
+                <a href="{% url 'products' %}?category=turntable,speakers,cleaning" class="dropdown-item">All Equipment</a>
+
 
             </div>
         </li>

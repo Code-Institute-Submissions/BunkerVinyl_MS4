@@ -21,11 +21,23 @@ a:hover {
     text-decoration: underline;
 }
 
+a.category-badge > span.badge:hover {
+    background: #b39975 !important;
+    color: #edeae6 !important;
+    text-decoration: underline;
+}
+
+.max-length {
+    width: 200px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
 footer {
-    text-align: center;
-    padding: 3px;
-    background-color: #b39975;
-    color: #edeae6;
+    height: 50px;
+    width: 100%;
+    opacity: 0;
   }
 
 h2{
