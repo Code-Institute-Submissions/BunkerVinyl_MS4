@@ -53,7 +53,9 @@ h2{
     z-index: 1;
 }
 
-.btt-link {
+.btt-link,
+.update-item,
+.remove-item {
     cursor: pointer;
 }
 
