@@ -63,13 +63,13 @@ h2{
 
 .message-container {
     position: fixed;
-    top: 72px;
-    right: 15px;
-    z-index: 99999999999;
+    top: 100px;
+    right: 30px;
+    z-index: 1;
 }
 
 .custom-toast {
-    overflow: visible;
+    overflow-wrap: break-word;
 }
 
 .toast-capper {
