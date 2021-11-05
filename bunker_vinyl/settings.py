@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-x$1bc86jhnaukro)p)s6b8#dj(d(@6p9h9s3_1!3k*rh1%ue=a
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['bunker-vinyl-ms4.herokuapp.com', 'localhost']
 
 
 # Application definition
@@ -124,16 +124,19 @@ WSGI_APPLICATION = 'bunker_vinyl.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
-# DATABASES = {
-#    'default': {
-#        'ENGINE': 'django.db.backends.sqlite3',
-#       'NAME': BASE_DIR / 'db.sqlite3',
-#    }
-#}
-
-DATABASES = {
-    'default': dj_database_url.parse('postgres://wzbwelssjngrzt:6fb4dd7eeef7a127bbc4ec451beb66de9262a199f87ebf4925505c547ccfbe50@ec2-54-247-158-179.eu-west-1.compute.amazonaws.com:5432/d7ibvuu9ofel27')
+if 'DATABASE_URL' in os.environ:
+    DATABASES = {
+        'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))
+    }
+else:
+ DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.sqlite3',
+       'NAME': BASE_DIR / 'db.sqlite3',
+    }
 }
+
+
 
 
 # Password validation
