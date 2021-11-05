@@ -152,6 +152,7 @@ input[name='q']::placeholder {
 .card-body,
 .card-footer{
     background-color: #c5a173;
+    width: auto;
 }
 
 /* -----------------------------------------------  Searchbar stylings */
