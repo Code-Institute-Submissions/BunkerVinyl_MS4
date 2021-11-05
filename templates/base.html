@@ -81,7 +81,7 @@
               <a href="" class="dropdown-item">Product Management</a>
               {% endif %}
               <!------------------Displays Logout Option if user is authenticted--------------------->
-              <a href="" class="dropdown-item">My Profile</a>
+              <a href="{% url 'profile' %}" class="dropdown-item">My Profile</a>
               <a href="{% url 'account_logout' %}" class="dropdown-item">Logout</a>
               {% else %}
               <!------------------Displays Login/Register if user is not----------------------------->
