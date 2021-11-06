@@ -93,15 +93,9 @@
             </div>
         </div>
     </div>
-    <div class="row">
-        <div class="col-12">
-            {% if user.is_authenticated %}
-            <a href="{% url 'add_review' category=url product_id=product.id %}" class="text-muted">ADD REVIEW</a>
-            {% endif %}
-            <hr />
-        </div>
-    </div>
-    
+
+</div>
+</div>
 {% endblock %}
 
 {% block postloadjs %}

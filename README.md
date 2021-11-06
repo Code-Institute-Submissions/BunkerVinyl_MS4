@@ -57,7 +57,7 @@ The site consists of 5 individual apps within the main Django framework.
 
 - Home
 
-    Home app, conatins the main home (index.html) page with links to information and tutroials on Raspberry Pi
+    Home app, conatins the main home (index.html) page with a message and button inviting the customer to start shopping the site.
     
     <details><summary>Home Page</summary>
         <img src="readme_assets/images/home_page.jpg">
@@ -66,11 +66,11 @@ The site consists of 5 individual apps within the main Django framework.
 
 - Products
 
-    The producs app contains all the producs, filter options (filter by product types, ) and sort options.
+    The producs app contains all the producs, filter options (filter by genre or type ) and sort options.
     The site consists of two html pages, 
         
     1. Products page, displays all products in the DB.
-    Products are displayed in a bootstrap card with the number per row, varying depending on screen size. The image for  each product is a link to open the details for the selected product.
+    Products are displayed in a bootstrap card with the number per row, varying depending on screen size. The image for each product is a link to open the details for the selected product.
 
     <details><summary>Products Page</summary>
         <img src="readme_assets/images/products_page.jpg">
