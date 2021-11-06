@@ -101,54 +101,7 @@
             <hr />
         </div>
     </div>
-    {% if reviews %}
-    {% for review in reviews %}
-    <div class="row review-row">
-        <div class="col-lg-9">
-            <h4>
-                {{ review.title }}
-                {% if review.author.user == request.user %}
-                <a href="{% url 'edit_review' category=url product_id=product.id review_id=review.id %}"
-                    class="btn btn-sm brand-btn">
-                    <i class="fas fa-pencil-alt"></i>
-                </a>
-                {% endif %}
-                {% if review.author.user == request.user or request.user.is_superuser %}
-                <a href="{% url 'delete_review' category=url product_id=product.id review_id=review.id %}"
-                    class="btn btn-sm brand-btn-danger">
-                    <i class="fas fa-trash-alt"></i>
-                </a>
-                {% endif %}
-            </h4>
-            <p class="text-muted mb-0">
-                Posted by: <a href="{% url 'profile' review.author.user.username %}" class="text-muted">
-                    {{ review.author.user.username }}
-                    {% if review.author.user.is_superuser %}
-                    <span class="badge badge-pill admin-badge">Admin</span>
-                    {% elif review.author.user.is_staff %}
-                    <span class="badge badge-pill badge-success">Staff</span>
-                    {% endif %}
-                </a> on {{ review.date }}
-            </p>
-            <p class="text-muted mt-0">
-                Rated: {% if review.rating == "good" %}<i class="fas fa-thumbs-up"></i>{% else %}<i
-                    class="fas fa-thumbs-down"></i>{% endif %}
-            </p>
-        </div>
-        <div class="col-lg-9">
-            <p>{{ review.content }}</p>
-        </div>
-    </div>
-    <hr />
-    {% endfor %}
-    {% else %}
-    <div class="row">
-        <div class="col-12">
-            <p>There are no reviews for this product just yet. Maybe you could be the first?</p>
-        </div>
-    </div>
-</div>
-</div>
+    
 {% endblock %}
 
 {% block postloadjs %}
